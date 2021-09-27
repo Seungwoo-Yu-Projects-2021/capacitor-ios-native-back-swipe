@@ -1,4 +1,4 @@
-package com.pocopoco.plugins.suppresslongpress;
+package com.ysw2k.capacitor.plugins.backswipe;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
@@ -15,7 +15,7 @@ public class CapacitorIosNativeBackSwipe extends Plugin {
         ret.put("result", false);
         call.success(ret);
     }
-    
+
     @PluginMethod
     public void disableSwipe(PluginCall call) {
         JSObject ret = new JSObject();
