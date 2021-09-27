@@ -14,6 +14,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
+  "author": "Seungwoo-Yu",
   "license": "MIT",
   "devDependencies": {
     "@capacitor/android": "^2.4.7",
@@ -52,5 +53,12 @@
     }
   },
   "prettier": "@ionic/prettier-config",
-  "swiftlint": "@ionic/swiftlint-config"
+  "swiftlint": "@ionic/swiftlint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Seungwoo-Yu/capacitor-plugin-sensors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Seungwoo-Yu/capacitor-ios-native-back-swipe/issues"
+  }
 }
