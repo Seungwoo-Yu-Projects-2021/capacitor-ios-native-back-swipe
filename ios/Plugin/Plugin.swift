@@ -5,8 +5,8 @@ import Capacitor
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitorjs.com/docs/plugins/ios
  */
-@objc(CapacitorIOSNativeBackSwipe)
-public class CapacitorIOSNativeBackSwipe: CAPPlugin {
+@objc(CapacitorIosNativeBackSwipe)
+public class CapacitorIosNativeBackSwipe: CAPPlugin {
     @objc func enableSwipe(_ call: CAPPluginCall) {
         let webView = self.bridge.getWebView()
 

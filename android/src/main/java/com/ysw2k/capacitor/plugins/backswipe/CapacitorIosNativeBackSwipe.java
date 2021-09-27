@@ -7,7 +7,7 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 
 @NativePlugin
-public class CapacitorIOSNativeBackSwipe extends Plugin {
+public class CapacitorIosNativeBackSwipe extends Plugin {
 
     @PluginMethod
     public void enableSwipe(PluginCall call) {
